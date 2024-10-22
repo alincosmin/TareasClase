@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes de día 4</title>
+<!-- Los estilos siempre van en el Header, mediante la etiqueta "<style>"" -->
+    <style>
+
+        /* Al usar un "*" incluimos a todos lo elementos de la web */
+        * {
+            box-sizing: border-box;
+            /* 
+            El comando "box-sizing: border-box" se utiliza para que las medidad de las cajas se tomen 
+            en cuenta solo el width y height del contenido, sin tener en cuenta el margin, padding 
+            o border.
+            */
+        }
+
+        span {
+            background-color: blueviolet;
+        }
+
+        div {
+            background-color: rgb(255, 130, 130);
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+
+            /* 
+            border-width: 2px;
+            border-style: dashed; 
+            border-color: black;
+          
+            Podemos juntar varios atributos en una sola línea de código 
+            */
+            
+            border: 2px dashed black;
+            padding: 20px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Inline vs Block</h1>
+
+    <span class="box">Caja 1</span>
+    <span class="box">Caja 2</span>
+
+    <div class="box">Caja 3</div>
+    <div class="box">Caja 4</div>
+
+</body>
+</html>

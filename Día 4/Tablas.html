@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes de día 4</title>
+</head>
+<body>
+    <h1>Tabla</h1>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Raza</th>
+            <th>Color</th>
+            <th>Actividades</th>
+        </tr>
+
+        <tr>
+            <td>Zeus</td>
+            <td colspan="2">Doberman</td>
+            <!-- El atributo "colspan" hace que se un elemento ocupe x espacios de una celda (afecta a las columnas), 
+             en este caso el número es 2 entonces solo ocupa 2 espacios-->
+
+            <!-- <td>Negro</td> -->
+            <td>Jugar</td>
+        </tr>
+
+        <tr>
+            <td>Lolo</td>
+            <td>Golden Retriever</td>
+            <td>Dorado</td>
+            <td rowspan="2">Jugar 1</td>
+            <!-- El comando "rowspan" hace que  un elemento ocupe x espacios de una celda (afecta a las filas) -->
+        </tr>
+
+        <tr>
+            <td>Zeus</td>
+            <td>Doberman</td>
+            <td>Negro</td>
+            
+            <!-- <td>Jugar 2</td> -->
+        </tr>
+    </table>
+</body>
+</html>

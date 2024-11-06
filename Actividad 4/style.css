@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    align-content:center;
+    justify-content: start;
+    margin: 0;
+    background-color: #f1ded4;;
+}
+
+/* Ajustes del header */
+header{
+    width: 100px;              
+    height: 98vh;             
+    position: sticky;           
+    top: 0;
+    bottom: 0;                     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px 10px 5px;
+    margin: 0;
+    background-color: #fffbe0;
+    
+}
+
+/* Ajustes de la lista */
+.header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajustes de los elementos de la lista */
+.header nav ul li{
+    margin: 10px;
+
+}
+
+/* Ajuste de los links de la lista */
+.header nav ul li a{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+/* Ajuste de cómo reacciona el link normal de la lista */
+.header nav ul li a:link{
+    color: black;
+    background-color: transparent;
+}
+
+/* Ajuste de cómo reacciona el link una vez visitado de la lista */
+.header nav ul li a:visited{
+    color: black;
+    background-color: transparent;
+}
+
+/* Ajuste de cómo reacciona el link cuando se hace hover de la lista */
+.header nav ul li a:hover{
+    color: black;
+    background-color: #f1ded4;
+}
+
+/* Ajustes de la foto del logo */
+.logo img{
+    height: 75px;
+    width: auto;
+}
+
+/* Estilo para el contenedor principal de article */
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.main article{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+/* Estilo para la imágen de la receta */
+#article-photo{
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit:contain;
+    border: solid;
+}
+
+/* Contenedor para el contenido del artículo */
+#article-main{
+    max-width: 600px;
+}
+
+#article-content{
+    margin-top: 20px;
+}

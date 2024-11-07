@@ -116,3 +116,61 @@ h2{
 h3{
     font-size: 24px;
 }
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 5% 0 0 0;
+}
+
+/* Estilos para el footer */
+.footer {
+    position: sticky; 
+    right: 0; 
+    top: 0; 
+    height: 100vh;
+    width: 100px; 
+    background-color: #fffbe0; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-left: 1px solid #ddd; 
+    padding: 16px;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Links en columna */
+    gap: 10px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.social-links li a:hover {
+    color: #f1a94e; /* Cambia el color al pasar el cursor */
+}

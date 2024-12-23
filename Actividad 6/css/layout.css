@@ -1,0 +1,30 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+}
+
+.u-textCrotah{
+    font-size: "Crotah";
+}
+
+.Body{
+    display: flex;
+    
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+.Main{
+ 
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homi</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script type="text/javascript">
+        function recibir() {
+          var nomId=document.getElementById("mail").value;
+          var apeName=document.getElementsByName("newsletter")[0].value;
+          document.getElementById("escribir").innerHTML=" \ Tu nombre es: "+nomId+" \
+           <br>Tu correo es: "+apeName;
+          }
+        function borrar() {
+           document.getElementById("escribir").innerHTML=" " ;
+          }
+        </script>
+
+</head>
+
+<body>
+
+    <header  class="header">
+        <div class="logo">
+            <img src="./images/Logo Entero.png" alt="Logo de Homi">
+        </div>
+
+        <nav class="navegador">
+            <ul>
+                <li>Inicio</li>
+                <li>Actividad</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <section class="section-1">
+            <div class="section-1_info">
+
+                <div class="section-1_text">
+                    <div>
+                        <h5>Sub Encabezado</h5>
+                        <h1>Titular con Enganche</h1>
+                        <h4>Mini texto que haga Enganche</h4>
+                    </div>
+
+                   <form id="form_js">
+                    <input type="email" name="newsletter" id="mail" placeholder="Introduce tu correo">
+                    <input type="submit" value="Unirse">
+                   </form>
+                   
+                </div>
+        
+               <div class="redes-sociales">
+                <img src="./images/instagram.png" alt="instagram">
+                <img src="./images/instagram.png" alt="instagram">
+                <img src="./images/instagram.png" alt="instagram">
+               </div>
+            </div>
+
+            <div class="section-1_photo">
+                <img src="./images/Photo 1.png" alt="Personas dándose la mano">
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
